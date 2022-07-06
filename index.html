@@ -17,6 +17,7 @@
 
 <body>
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-dark ecole">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Adidas</a>
@@ -25,27 +26,29 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <!--à finir demain -->
+                <!-- à finir demain -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Features</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">Pricing</a>
                         </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
+                                Nous contacter
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="drh.html">Nous rejoindre</a></li>
+                                <li><a class="dropdown-item" href="devis.html">Demande de devis</a></li>
+                                <li><a class="dropdown-item" href="form.html">Formulaire informations</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -53,17 +56,73 @@
             </div>
         </nav>
     </header>
-    <section class="slider"></section>
-    <main>
-        <section>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
-        <section>
 
-            <article></article>
-            <article></article>
+    <section class="slide">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/img/slide1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/img/slide2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slide3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <main class="container-xl">
+        <section class="row">
+            <article class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card format">
+                    <img src="assets/img/photo1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card format">
+                    <img src="assets/img/photo2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card format">
+                    <img src="assets/img/photo3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="row">
+
+            <article class="col-lg-10 col-md-6 col-sm-12"></article>
+            <article class="col-lg-2 col-md-6 col-sm-12"></article>
         </section>
 
 
